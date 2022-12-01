@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="sayfam_style.css">
+    <title>Sayfam</title>
+</head>
+
+<body>
+    <div id="div">
+        <div id="div2">
+        </div>
+        <button type="button" onclick="kahverengi()">Kahverengi</button>
+        <button type="button" onclick="beyaz()">Beyaz</button>
+        <button type="button" onclick="siyah()">Siyah</button>
+        <button type="button" onclick="kırmızı()">Kırmızı</button>
+        <button type="button" onclick="mavi()">Mavi</button>
+        <button type="button" onclick="yesil()">Yeşil</button>
+    </div>
+
+    <div id="saat">
+        <p id="saati_goster"></p>
+        <button type="button" onclick="saati_goster()" style="margin-top: 65px; margin-left: 150px;">Saati Göster</button>
+    </div>
+
+    <div id="gun">
+        <p id="gun2"></p>
+        <button type="button" onclick="gun()" style="margin-left: 48px;">Söyle</button>
+    </div>
+
+    <div id="ortalama">
+        <p style="margin-left: 55px;">Ortalama Hesaplama</p>
+        <p>Vize : <input type="text" id="vize" style="position: absolute; top: 50px;"></p>
+        <p>Final :   <input type="text" id="final" style="position: absolute; top: 85px;"></p>
+        <input type="submit" value="Hesapla" onclick="ort_hesapla()" style="position: absolute; left: 90px; top: 145px;">
+        <p id="ort" style="position: absolute; left: 50px; top: 100px; background-color: chocolate;font-size: 16px;font-family: Verdana, Geneva, Tahoma, sans-serif;"></p>
+    </div>
+
+    <p style="position: absolute; top:240px ; left: 207px; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Hesap Makinesi</p>
+    <div id="ornek">
+        <table id="hesap_makinesi" border="1">
+            <tr height="100px">
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="bir"><center>1</center></div></button></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"> <div id="iki"><center>2</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="uc"><center>3</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkseagreen; border-radius: 7px; width: 70px; height: 70px; margin: auto;"><div id="bol"><center>/</center></div></center>
+                </td>
+            </tr>
+            <tr height="100px">
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="dort"><center>4</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="bes"><center>5</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="alti"><center>6</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkseagreen; border-radius: 7px; width: 70px; height: 70px; margin: auto;"><div id="carp"><center>x</center></div></center>
+                </td>
+            </tr>
+            <tr height="100px">
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="yedi"><center>7</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="sekiz"><center>8</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="dokuz"><center>9</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkseagreen; border-radius: 7px; width: 70px; height: 70px; margin: auto;"><div id="cikarma"><center>-</center></div></center>
+                </td>
+            </tr>
+            <tr height="90px">
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="nokta"><center>.</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkgray; border-radius: 7px; width: 70px; height: 70px; margin: auto; background-color: darkgray;"><div id="sifir"><center>0</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkseagreen; border-radius: 7px; width: 70px; height: 70px; margin: auto;"><div id="esit"><center>=</center></div></center>
+                </td>
+                <td width="100px">
+                    <center><button type="button" style="font-size: 50px; background-color: darkseagreen; border-radius: 7px; width: 70px; height: 70px; margin: auto;"><div id="topla"><center>+</center></div></center>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <p style="position: absolute; top:280px ; left: 610px; font-size: 18px; font-family: Verdana, Geneva, Tahoma, sans-serif;">Hesap Makinesi</p>
+    <div id="hesapm">
+        <p>Sayı 1: <input type="text" id="s1" style="position: absolute;"></p>
+        <p>Sayı 2: <input type="text" id="s2" style="position: absolute;"></p>
+        <select style="position: relative; left: 250px; bottom: 55px;" id="islem">
+            <option>Toplama</option>
+            <option>Çıkarma</option>
+            <option>Çarpma</option>
+            <option>Bölme</option>
+        </select>
+        <p style="position: relative; left: 135px; bottom: 75px;"><input type="submit" value="Hesapla" onclick="hesapla()" style="position: relative; top: 35px;"></p>
+        <p id="sonuc" style="background-color: blanchedalmond; font-size: 16px; font-family: Verdana, Geneva, Tahoma, sans-serif; position: absolute; top: 80px;"></p>
+    </div>
+
+    <p id="baslik" style="background-color: deeppink; color: black; border-radius:4px ;">Ehliyet Yaş Hesaplama</p>
+    <div id="ehliyet_yas_hesaplama">
+        <p>Yaşınız: <input type="text" id="yas"></p>
+        <p><input type="submit" style="position: relative; left: 100px;" value="Sorgula" onclick="ehliyetHesapla()"></p>
+        <p id="sorgu"></p>
+    </div>
+
+    <script src="sayfam_script.js"></script>
+</body>
+
+</html>

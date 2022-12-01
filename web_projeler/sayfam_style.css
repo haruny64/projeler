@@ -1,0 +1,111 @@
+body {
+    background-color: blanchedalmond;
+
+}
+#div {
+    position: absolute;
+    left: 75px;
+    top: 50px;
+    background-color: cadetblue;
+    width: 360px;
+    height: 100px;
+    margin: auto;
+    border-radius: 10px;
+}
+#div2 {
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+#saat {
+    position: absolute;
+    top: 50px;
+    left: 475px;
+    background-color: cyan;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 373px;
+    height: 140px;
+    margin: auto;
+    border-radius: 10px;
+}
+#saati_goster {
+    background-color:gold ;
+    color: black;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+#gun {
+    position: absolute;
+    top: 50px;
+    left: 925px;
+    background-color: cornflowerblue;
+    width: 150px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 5px;
+}
+#ortalama {
+    width: 240px;
+    height: 180px;
+    background-color: burlywood;
+    position: absolute;
+    top: 50px;
+    left: 1125px;
+    border-radius: 10px;
+}
+#ornek {
+    background-color: darkcyan;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: 275px;
+    left: 60px;
+}
+#hesap_makinesi {
+    width: 400px;
+    height: 400px;
+    border: darkgray;
+}
+#hesapm {
+    background-color: darkgoldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 350px;
+    height: 140px;
+    position: relative;
+    left: 500px;
+    top: -100px;
+    border-radius: 5px;
+}
+#ehliyet_yas_hesaplama {
+    border-radius: 10px;
+    background-color: darkolivegreen;
+    position: absolute;
+    left: 970px;
+    top: 290px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 250px;
+    height: 150px;
+}
+#baslik {
+    font-size: 20px;
+    position: absolute;
+    left: 985px;
+    top: 240px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sorgu {
+    color: black;
+    position: absolute;
+    left: 18px;
+    top: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
