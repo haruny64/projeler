@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Harun Yelaldı</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="style.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+</head>
+<body class="w3-black">
+
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="" style="width:100%">
+  <a href="#" class="w3-bar-item w3-button w3-padding-large w3-black">
+    <i class="fa fa-home w3-xxlarge"></i>
+    <p>Harun Yelaldı</p>
+  </a>
+  <a href="#hakkimda" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-user w3-xxlarge"></i>
+    <p>Hakkında</p>
+  </a>
+  <a href="#egitim" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-eye w3-xxlarge"></i>
+    <p>Eğitim</p>
+  </a>
+  <a href="#iletisim" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="fa fa-envelope w3-xxlarge"></i>
+    <p>İletişim</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Ana Menü</a>
+    <a href="#hakkimda" class="w3-bar-item w3-button" style="width:25% !important">Hakkında</a>
+    <a href="#egitim" class="w3-bar-item w3-button" style="width:25% !important">Fotoğraflar</a>
+    <a href="#iletisim" class="w3-bar-item w3-button" style="width:25% !important">İletişim</a>
+  </div>
+</div>
+
+<div class="baslik">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Harun Yelaldı</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Hakkımda
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#hakkimda">Benim Hakkımda</a></li>
+              <li><a class="dropdown-item" href="#egitim">Eğitimlerim</a></li>
+              <li><a class="dropdown-item" href="#iletisim">İrtibata Geçebileceğiniz İletişimlerim</a></li>
+              
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<!-- Page Content -->
+<div class="w3-padding-large" id="main">
+  <!-- Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Ben</span> Harun Yelaldı.</h1>
+    <p>Front End Developer</p>
+    <img src="w3images/Untitled.png" class="w3-image" width="300" height="399">
+  </header>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64" id="hakkimda">
+    <h2 class="w3-text-light-grey">Hakkımda</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>Bilgisayar ve yazılım alanında bilgi deneyim sahibi oldum. Kurumda
+      bilgi işlem ve yazılım deneyimi sahibi oldum. Microsoft Office
+      uygulamalarına hakimim. Web programlama ve yazılım dillerinde
+      bilgi sahibi oldum ve yeni projeler geliştirdim. Programlama
+      dillerinden Python, java, C#,javascript dillerine hakimim. Veritabanı
+      Microsoft SQL programına ve SQL sorgulama diline hakimim. 
+    </p>
+    <h3 class="w3-padding-16 w3-text-light-grey">Yeteneklerim</h3>
+    <p class="w3-wide">Web Site Tasarımcısı</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:85%"></div>
+    </div>
+    <p class="w3-wide">Web Programlama</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:70%"></div>
+    </div>
+    <p class="w3-wide">Java Programlama</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">C# Programlama</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:60%"></div>
+    </div>
+    <p class="w3-wide">Python Programlama</p>
+    <div class="w3-white">
+      <div class="w3-dark-grey" style="height:28px;width:65%"></div>
+    </div><br>
+    
+    
+
+    <button class="w3-button w3-light-grey w3-padding-large w3-section">
+      <i class="fa fa-download"></i> <a href="C:\Users\harun\Desktop\cv2-PDF.pdf" download>Özgeçmiş İndir</a>
+    </button>
+    
+    <!-- Grid for pricing tables -->
+    <h3 class="w3-padding-16 w3-text-light-grey">Sertifikalar</h3>
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programcı Olma Kursu</li>
+          
+          
+          <li class="w3-padding-16">
+            <img src="w3images/programci-olma-kurs-sertfk.png" alt="" width="420" height="300">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://www.udemy.com/certificate/UC-a617e556-fcc5-4b4d-b9f6-de5b769650f2/">Sertifika URL'si</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programcı Olma Kursu</li>
+          
+          
+          <li class="w3-padding-16">
+            <img src="w3images/csharp-programlama.png" alt="" width="420" height="300">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/harunyelaldi/C%20Sharp%20ile%20Algoritma%20ve%20Programlama/101">Sertifika URL'si</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programcı Olma Kursu</li>
+          
+          
+          <li class="w3-padding-16">
+            <img src="w3images/web-programlama-101.png" alt="" width="420" height="300">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/harunyelaldi/Web%20Programlama/101">Sertifika URL'si</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programcı Olma Kursu</li>
+          
+          
+          <li class="w3-padding-16">
+            <img src="w3images/web-programlama-201.png" alt="" width="420" height="300">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://gelecegiyazanlar.turkcell.com.tr/kisi/belge/harunyelaldi/Web%20Programlama/201">Sertifika URL'si</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programcı Olma Kursu</li>
+          
+          
+          <li class="w3-padding-16">
+            <img src="w3images/web-programlama.png" alt="" width="390" height="300">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://www.udemy.com/certificate/UC-0d580353-e617-4812-a14c-165bd236c870/">Sertifika URL'si</a></button>
+          </li>
+        </ul>
+      </div>
+
+      <div class="w3-half w3-margin-bottom">
+        <ul class="w3-ul w3-white w3-center w3-opacity w3-hover-opacity-off">
+          <li class="w3-dark-grey w3-xlarge w3-padding-32">Programcı Olma Kursu</li>
+          
+          
+          <li class="w3-padding-16">
+            <img src="w3images/yazilim-test-uzmanı.png" alt="" width="390" height="300">
+          </li>
+          <li class="w3-light-grey w3-padding-24">
+            <button class="w3-button w3-white w3-padding-large w3-hover-black"><a href="https://www.udemy.com/certificate/UC-0c5d6e55-941b-4346-b7f2-a992d8df17f8/">Sertifika URL'si</a></button>
+          </li>
+        </ul>
+      </div>
+
+      
+    <!-- End Grid/Pricing tables -->
+    </div>
+    
+    <!-- Testimonials -->
+    <h3 class="w3-padding-24 w3-text-light-grey">İş Deneyimi</h3>  
+    <hr style="width:200px" class="w3-opacity">
+    <p><span class="w3-large w3-margin-right">Uşak İl Milli Eğitim Müdürlüğü</span> <br> Bilgi İşlem Destek Elemanı</p>
+    <p>Bilgi işlem alanında destek oldum. Bilgisayar arıza ve bakım yaptım. Yapılan projelere ve iş <br>
+      aşamalarına katkım oldu. Yazılım ve donanım alanında bilgi ve deneyim sahibi oldum.
+    </p><br>
+    
+    
+  <!-- End About Section -->
+  </div>
+  
+  <!-- Portfolio Section -->
+  <div class="w3-padding-64 w3-content" id="egitim">
+    <h2 class="w3-text-light-grey">Eğitim</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <p><span class="w3-large w3-margin-right">İnternet Ve Ağ Teknolojisi</span> <br> Isparta Uygulamalı Bilimler Üniversitesi Selahattin Karasoy Meslek Yüksekokulu</p>
+    <p>Isparta &nbsp; &nbsp; &nbsp; &nbsp; (2020-2022)<br>
+      Not Ortalaması : 3.18
+    </p><br>
+
+    <p><span class="w3-large w3-margin-right">Yönetim Bilişim Sistemleri</span> <br> Anadolu Üniversitesi (Açıköğretim)</p>
+    <p>Eskişehir &nbsp; &nbsp; (2022-Okuyor)<br>
+    </p><br>
+
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-padding-64 w3-content w3-text-grey" id="iletisim">
+    <h2 class="w3-text-light-grey">Benimle İrtibata Geçin</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Uşak, TÜRKİYE</p>
+      <p><i class="fa fa-phone fa-fw w3-text-white w3-xxlarge w3-margin-right"></i> Telefon : 0(546) 790 69 62</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-white w3-xxlarge w3-margin-right"> </i> Email: haruny6962@gmail.com</p>
+    </div><br>
+    
+  <!-- End Contact Section -->
+  </div>
+  
+    <!-- Footer -->
+  <footer class="w3-content w3-padding-64 w3-text-grey w3-xlarge">
+    
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    
+    <i class="fa fa-github w3-hover-opacity"></i>
+    
+    <i class="fa fa-linkedin w3-hover-opacity"></i>
+    <p class="w3-medium">Powered by Harun Yelaldı</p>
+  <!-- End footer -->
+  </footer>
+
+<!-- END PAGE CONTENT -->
+</div>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
