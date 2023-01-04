@@ -1,0 +1,358 @@
+*{
+    margin: auto;
+    height: auto;
+}
+
+body {
+    background-color: rgb(50, 37, 100);
+    height: auto;
+}
+
+#sekil1 {
+    background-color: rgb(203, 95, 224);
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    border-radius: 100%;
+    left: -40px;
+    top: -150px;
+}
+
+#sekil2 {
+    background-color: rgb(203, 95, 224);
+    width: 200px;
+    height: 400px;
+    position: absolute;
+    border-radius: 100%;
+    left: -80px;
+    top: 40px;
+}
+
+#sekil3 {
+    background-color: rgb(203, 95, 224);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    border-radius: 100%;
+    left: -60px;
+    top: 5px;
+}
+
+#sekil4 {
+    background-color: rgb(203, 95, 224);
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    border-top-left-radius: 100%;
+    left: 1118px;
+    top: 330px;
+    z-index: -1;
+}
+
+#menu {
+    position: fixed;
+    background-color: rgb(73, 72, 72);
+    opacity: 0.8;
+    width: 340px;
+    height: 700px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-right-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#alt-menu {
+    position: relative;
+    width: 200;
+    height: 210px;
+    margin-top: 100px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+#cv {
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(50, 37, 100);
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#cv:hover {
+    width: 60%;
+}
+
+#egitim {
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(50, 37, 100);
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#egitim:hover {
+    width: 60%;
+}
+
+#is-deneyimi {
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(50, 37, 100);
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#is-deneyimi:hover {
+    width: 60%;
+}
+
+#sertifika {
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(50, 37, 100);
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sertifika:hover {
+    width: 60%;
+}
+
+#iletisim {
+    margin: 10px;
+    width: 110px;
+    height: 30px;
+    background-color: rgb(50, 37, 100);
+    border: 0;
+    border-radius: 8px;
+    transition: all 0.5s;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#iletisim:hover {
+    width: 60%;
+}
+
+#ana-menu {
+    position: fixed;
+    width: 1110px;
+    height: 700px;
+    left: 370px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    text-align: center;
+}
+
+#egitimleri {
+    position: absolute;
+    opacity: 0.7;
+    left: 100px;
+    width: 400px;
+    height: 500px;
+    background-color: rgb(127, 81, 201);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#egitimleri2 {
+    position: absolute;
+    opacity: 0.7;
+    left: 600px;
+    width: 400px;
+    height: 350px;
+    background-color: rgb(127, 81, 201);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#is-deneyimleri {
+    position: absolute;
+    opacity: 0.7;
+    left: 200px;
+    width: 650px;
+    height: 480px;
+    background-color: rgb(127, 81, 201);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sertifika1 {
+    position: absolute;
+    margin-top: 20px;
+    left: 0px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+
+#sert-1 {
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#sert-1:hover {
+    width: 360px;
+
+}
+
+#sertifika2 {
+    position: absolute;
+    margin-top: 20px;
+    left: 380px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sert-2 {
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#sert-2:hover {
+    width: 360px;
+
+}
+
+#sertifika3 {
+    position: absolute;
+    margin-top: 20px;
+    left: 760px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sert-3 {
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#sert-3:hover {
+    width: 360px;
+
+}
+
+#sertifika4 {
+    position: absolute;
+    margin-top: 20px;
+    top: 280px;
+    left: 0px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sert-4 {
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#sert-4:hover {
+    width: 360px;
+
+}
+
+#sertifika5 {
+    position: absolute;
+    margin-top: 20px;
+    top: 280px;
+    left: 380px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sert-5 {
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#sert-5:hover {
+    width: 360px;
+
+}
+
+#sertifika6 {
+    position: absolute;
+    transition: all .3s ease-in;
+    margin-top: 20px;
+    top: 280px;
+    left: 760px;
+    width: 350px;
+    height: 200px;
+    border-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#sert-6 {
+    margin-top: 20px;
+    transition: all 1s;
+}
+
+#sert-6:hover {
+    width: 360px;
+
+}
+
+#iletisim_bilgileri {
+    position: relative;
+    opacity: 0.7;
+    top: -50px;
+    left: 0px;
+    width: 650px;
+    height: 380px;
+    background-color: rgb(127, 81, 201);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+    transition: all .3s ease-in;
+   
+
+}
+
+#iletisim_bilgileri:hover {
+    -webkit-transform: scale(1.1);
+    
+    
+
+}
+
+#cv1 {
+    position: relative;
+    width: 400px;
+    height: 800px;
+    left: 200px;
+}
+
+#cv2 {
+    position: relative;
+    width: 400px;
+    height: 800px;
+    top: -800px;
+    left: -250px;
+}
